@@ -2,6 +2,9 @@
 
 return [
 	
+	// group tool option descriptions
+	'forum:group_tool_option:description' => "Allow the group members to start a discussion in a simple forum format.",
+
 	// discussion status
 	'discussions_tools:discussion:confirm:open' => "Are you sure you wish to reopen this topic?",
 	'discussions_tools:discussion:confirm:close' => "Are you sure you wish to close this topic?",
