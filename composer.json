@@ -1,0 +1,17 @@
+{
+	"name": "coldtrick/discussions_tools",
+	"description": "Additions / modifications to the discussions plugin",
+	"type": "elgg-plugin",
+	"keywords": ["elgg", "plugin", "discussions"],
+	"license": "GPL-2.0",
+	"support": {
+		"source": "https://github.com/ColdTrick/discussions_tools",
+		"issues": "https://github.com/ColdTrick/discussions_tools/issues"
+	},
+	"require": {
+		"composer/installers": "^1.0.8"
+	},
+	"require-dev": {
+		"coldtrick/sniffs": "dev-master"
+	}
+}
