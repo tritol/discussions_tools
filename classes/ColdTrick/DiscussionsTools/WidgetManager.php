@@ -36,6 +36,12 @@ class WidgetManager {
 			case 'discussion':
 				$return_value = 'discussion/all';
 				break;
+			case 'group_forum_topics':
+				$page_owner = elgg_get_page_owner_entity();
+				if (($page_owner instanceof \ElggGroup)) {
+					$return_value = "discussion/owner/{$page_owner->getGUID()}";
+				}
+				break;
 		}
 		
 		return $return_value;
@@ -64,8 +70,9 @@ class WidgetManager {
 		
 		// check different group tools for which we supply widgets
 		if ($entity->forum_enable === 'yes') {
-			
+			$return_value['enable'][] = 'group_forum_topics';
 		} else {
+			$return_value['disable'][] = 'group_forum_topics';
 			$return_value['disable'][] = 'start_discussion';
 		}
 		

@@ -9,6 +9,7 @@ return [
 	'discussions_tools:discussion:confirm:open' => "Are you sure you wish to reopen this topic?",
 	'discussions_tools:discussion:confirm:close' => "Are you sure you wish to close this topic?",
 	
+	// widgets
 	// quick start discussion
 	'discussions_tools:widgets:start_discussion:title' => "Start a discussion",
 	'discussions_tools:widgets:start_discussion:description' => "Quickly start a discussion is a selected group",
@@ -20,10 +21,13 @@ return [
 	'discussions_tools:forms:discussion:quick_start:group' => "Select a group for this discussion",
 	'discussions_tools:forms:discussion:quick_start:group:required' => "Please select a group",
 	
-	// Discussion
+	// latest discussions (index, dashboard)
 	'discussions_tools:widgets:discussion:description' => "Shows the latest discussions",
 	'discussions_tools:widgets:discussion:settings:group_only' => "Only show discussions from groups you are member of",
 	'discussions_tools:widgets:discussion:more' => "View more discussions",
+	
+	// latest discussions (group)
+	'discussions_tools:widgets:group_forum_topics:description' => "Show the latest discussions",
 	
 	// actions
 	// discussion toggle status
