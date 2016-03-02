@@ -33,6 +33,9 @@ class WidgetManager {
 					$return_value = "discussion/add/{$owner->getGUID()}";
 				}
 				break;
+			case 'discussion':
+				$return_value = 'discussion/all';
+				break;
 		}
 		
 		return $return_value;

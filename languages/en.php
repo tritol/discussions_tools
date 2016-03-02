@@ -16,7 +16,12 @@ return [
 	
 	'discussions_tools:forms:discussion:quick_start:group' => "Select a group for this discussion",
 	'discussions_tools:forms:discussion:quick_start:group:required' => "Please select a group",
-		
+	
+	// Discussion
+	'discussions_tools:widgets:discussion:description' => "Shows the latest discussions",
+	'discussions_tools:widgets:discussion:settings:group_only' => "Only show discussions from groups you are member of",
+	'discussions_tools:widgets:discussion:more' => "View more discussions",
+	
 	// actions
 	// discussion toggle status
 	'discussions_tools:action:discussions:toggle_status:success:open' => "The topic was successfully reopened",
