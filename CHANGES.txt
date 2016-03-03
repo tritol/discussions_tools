@@ -1,6 +1,16 @@
 Version history
 ===============
 
+1.0-rc.1 (2016-03-03):
+
+- added: discussion object view modifications
+- added: discussion status toggle to entity menu
+- added: discussions tool option description
+- added: discussions widget
+- added: group_form_topic widget
+- added: plugin framework
+- added: start_discussion widget
+
 0.1:
 
  - initial build
