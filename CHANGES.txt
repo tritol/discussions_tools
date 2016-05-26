@@ -1,6 +1,12 @@
 Version history
 ===============
 
+2.0 (2016-05-26):
+
+- added: Dutch translation
+- changed: Elgg version requirement set to 2.1
+- fixed: deprecated notice
+
 1.0 (2016-04-14):
 
 - fixed: using correct jquery function
